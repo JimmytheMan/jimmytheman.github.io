@@ -2,16 +2,30 @@
 <!DOCTYPE html>
 <html>
     <style>
-        #second {
+        body {
+            background-color:green;
+        }
+        #first {
+            font-family: arial;
+            font-size:28px; 
+            font-weight:bold;
+           
+        }
+        
+        .first {
+            line-height:1px;
+            text-align:center;
+        }
+        
+         #second {
             font-family:arial;
             font-size:28px;
             font-weight:bold;
         }
         
-        #first {
-            font-family: arial;
-            font-size:28px; 
-            font-weight:bold;
+        .second {
+            line-height:1px;
+            text-align:center;
         }
         
          #third {
@@ -20,18 +34,42 @@
             font-weight:bold;
         }
         
+        .third {
+            line-height:1px;
+            text-align:center;
+        }
+        
+        }
          #fourth {
             font-family: arial;
             font-size:28px; 
             font-weight:bold;
         }
         
-        #title {
+        .fourth {
+            line-height:1px;
             text-align:center;
-            font-family: cursive;
-            color: green;
         }
         
+        #title {
+            text-align:center;
+            font-family: monospace;
+            color: red;
+            text-decoration:underline;
+            font-size:44px;
+        }
+        
+        .contents {
+            text-align:center;
+            color: yellow;
+        }
+        
+        ul {
+            list-style:none;
+            margin:0;
+            padding:0;
+        }
+       
     </style>
     <head>
         <meta charset="utf-8">
@@ -41,34 +79,35 @@
         
         <h1 id="title">Dewal's blog</h1>
 
-        <h3>Contents</h3>
-        <ul>
+        <h3 class="contents">Contents</h3>
+        <ul class="contents">
             <li><a href="#first">First post!</a></li>
             <li><a href="#second">Second post!</a></li>
             <li><a href="#third">Third post!</a></li>
             <li><a href="#fourth">Fourth post!</a></li>
         </ul>
+        <br> <br>
+        <h2 class="first">First post</h2>
+        <h6 class="first">2/21/18</h6>
         
-        <h2 id="first">First post</h2>
-        <h6>2/21/18</h6>
+        <p class="first">Something exciting happened!</p> <br> <br>
         
-        <p>Something exciting happened!</p>
+        <h2 class="second">Second post</h2>
+        <h6 class="second">3/14/18</h6>
         
-        <h2 id="second">Second post</h2>
-        <h6>3/14/18</h6>
+        <p class="second">Something else exciting happened!!</p> <br> <br>
         
-        <p>Something else exciting happened!!</p>
+        <h2 class="third">Third post</h2>
+        <h6 class="third">4/28/18</h6>
         
-        <h2 id="third">Third post</h2>
-        <h6>4/28/18</h6>
+        <p class="third">Something even more exciting happened!!!</p> <br> <br>
         
-        <p>Something even more exciting happened!!!</p>
+        <h2 class="fourth">Fourth post</h2>
+        <h6 class="fourth">5/9/18</h6>
         
-        <h2 id="fourth">Fourth post</h2>
-        <h6>5/9/18</h6>
-        
-        <p>Something happened...</p>
+        <p class="fourth">Something happened...</p>
    
     </body>
 </html>
+
 
