@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <style>
-    
         #ktitle {
             line-height:12px;
             text-align:center;
@@ -10,7 +9,6 @@
             font-size:44px;
             text-decoration:underline;
         }
-        
         #kpic {
             padding:1px;
             border:3px solid rgb(102, 252, 241);
@@ -20,15 +18,24 @@
             margin-right: auto;
             width: 40%;
         }
-        
+        #list {
+            text-decoration:underline;
+            line-height:2px;
+            font-family: monospace;
+            color: rgb(102, 252, 241);
+            font-size:40px;
+            text-align:center;
+        }
         .p1 {
-            line-height:22px;
+            max-width:27%;
+            margin: auto;
+            text-align: left;
+            line-height:20px;
             font-family: monospace;
             color: rgb(102, 252, 241);
             font-size:22px;
             text-align:center;
         }
-    
         body {
             background-color: rgb(11, 12, 16);
         }
@@ -38,12 +45,12 @@
     <body>
         <h1 id="ktitle">Kamikaze</h1>
         <img src="https://www.horion.ro/wp-content/uploads/2018/09/Eminem-kamikaze.png" id="kpic">
-        <h2 class="p1">Song List</h2>
-        <ol class="p1">
+        <br>
+        <h2 id="list">Song List</h2>
+        <ul class="p1">
             <li>The Ringer</li>
             <li>Greatest</li>
-            
-        </ol>
+        </ul>
     
     </body>
 </html>
