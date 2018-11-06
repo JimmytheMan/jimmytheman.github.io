@@ -9,7 +9,7 @@
             font-size:44px;
             text-decoration:underline;
         }
-        #un {
+        .unpw {
             line-height:30px;
             text-indent:40px;
             color: rgb(102, 252, 241);
@@ -27,8 +27,8 @@
     <body>
         <h1 id="login"> Login</h1>
         <form name="login">
-    Username<input type="text" name="userid" id="un"/>
-    Password<input type="password" name="pswrd"/>
+    Username<input type="text" name="userid" class="unpw"/>
+    Password<input type="password" name="pswrd" class="unpw"/>
     <input type="button" onclick="check(this.form)" value="Login"/>
     <input type="reset" value="Cancel"/>
     </form>
