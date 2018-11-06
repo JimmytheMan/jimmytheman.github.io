@@ -10,11 +10,17 @@
             text-decoration:underline;
         }
         #unpw {
+        	text-align:center;
             line-height:30px;
             text-indent:40px;
-            color: white;
+            color: rgb(102, 252, 241);
             font-size:20px;
             font-family:monospace;
+        }
+        .button {
+        	background-color:rgb(11,12,16);
+            color: rgb(102, 252, 241);
+            
         }
         body {
             background-color:rgb(11,12,16);
@@ -27,11 +33,10 @@
     <body>
         <h1 id="login"> Login</h1>
         <form name="login" id="unpw">
-    
     Username<input type="text" name="userid"/> <br>
-    Password<input type="password" name="pswrd"/>
-    <input type="button" onclick="check(this.form)" value="Login"/>
-    <input type="reset" value="Cancel"/>
+    Password<input type="password" name="pswrd"/> <br>
+    <input type="button" onclick="check(this.form)" value="Login" class="button"/>
+    <input type="reset" value="Cancel" class="button"/>
     </form>
     <script language="javascript">
  function check(form){
