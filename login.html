@@ -9,7 +9,13 @@
             font-size:44px;
             text-decoration:underline;
         }
-        
+        #un {
+            line-height:30px;
+            text-indent:40px;
+            color: rgb(102, 252, 241);
+            font-size:20px;
+            font-family:monospace;
+        }
         body {
             background-color:rgb(11,12,16);
         }
@@ -21,7 +27,7 @@
     <body>
         <h1 id="login"> Login</h1>
         <form name="login">
-    Username<input type="text" name="userid"/>
+    Username<input type="text" name="userid" id="un"/>
     Password<input type="password" name="pswrd"/>
     <input type="button" onclick="check(this.form)" value="Login"/>
     <input type="reset" value="Cancel"/>
