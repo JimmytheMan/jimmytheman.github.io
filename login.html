@@ -2,11 +2,17 @@
 <html>
     <style>
         #login {
-            font-size:20px;
-            font-family:monospace;
+            line-height:12px;
             text-align:center;
+            font-family: monospace;
+            color: rgb(102, 252, 241);
+            font-size:44px;
+            text-decoration:underline;
         }
         
+        body {
+            background-color:rgb(11,12,16);
+        }
     </style>
     
     <head>
@@ -23,7 +29,7 @@
     <script language="javascript">
  function check(form){
  /*the following code checks whether the entered userid and password are matching*/
- if(form.userid.value == "myuserid" && form.pswrd.value == "mypswrd")
+ if(form.userid.value == "user" && form.pswrd.value == "password")
   {
     window.open('https://www.w3schools.com/js/tryit.asp?filename=tryjson_array_modify')/*opens the target page while Id & password matches*/
   }
