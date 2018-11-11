@@ -167,6 +167,22 @@
         <h2 class="lel"><a target="_blank" href="https://jimmytheman.github.io/kamikaze.html" id="b1">Kamikaze</a><a target="_blank" href="https://jimmytheman.github.io/revival.html" id="b2">Revival</a><a target="_blank" href="https://jimmytheman.github.io/recovery.html" id="b3">Recovery</a></h2>
         <h2 class="lel"><a href="#title" id="btt">Back to Top</a></h2>
         
+        <p>Select your favorite album:</p>
+        <form action="/action_page.php">
+              <input type="radio" name="browser" onclick="myFunction(this.value)" value="Kamikaze">Kamikaze<br>
+          <input type="radio" name="browser" onclick="myFunction(this.value)" value="Revival">Revival<br>
+          <input type="radio" name="browser" onclick="myFunction(this.value)" value="Recovery">Recovery<br>
+          Your favorite album is: <input type="text" id="result">
+          <input type="submit" value="Submit form">
+        </form>
+
+        <script>
+        function myFunction(album) {
+            document.getElementById("result").value = album;
+        }
+        </script>
+        
+        
     </body>
     
 </html>
