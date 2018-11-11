@@ -130,6 +130,32 @@
             font-family:monospace;
             font-size:18px;
         }
+        #rhead {
+        
+            margin-left:2px;
+            text-decoration:none;
+            font-weight:bold;
+            color: rgb(102, 252, 241);
+            text-align:center;
+            border: 2px solid white;
+            font-family:monospace;
+            font-size:28px;
+        }
+        .r{
+            text-align:center;
+            text-decoration:none;
+            font-weight:bold;
+            color: rgb(102, 252, 241);
+            border: 2px solid white;
+            font-family:monospace;
+            font-size:18px;
+        }
+        #button {
+        	font-size:12px;
+        	background-color:rgb(11,12,16);
+            color: rgb(102, 252, 241);
+
+        }
         body {
             background-color: rgb(11, 12, 16);
         }
@@ -163,24 +189,25 @@
                 <td class="td2"><a target="_blank" href="https://jimmytheman.github.io/recovery.html" id="td">Recovery is Eminem's seventh studio album. Recovery is an emotional album that Eminem made for "anyone who's in a dark place tryin' to get out". The album is named "Recovery" because it was Eminem's first album after he went sober and gave up drugs.</a></td>
             </tr>
         </table>
-        <br>
-        <h2 class="lel"><a target="_blank" href="https://jimmytheman.github.io/kamikaze.html" id="b1">Kamikaze</a><a target="_blank" href="https://jimmytheman.github.io/revival.html" id="b2">Revival</a><a target="_blank" href="https://jimmytheman.github.io/recovery.html" id="b3">Recovery</a></h2>
-        <h2 class="lel"><a href="#title" id="btt">Back to Top</a></h2>
-        
-        <p>Select your favorite album:</p>
-        <form action="/action_page.php">
-              <input type="radio" name="browser" onclick="myFunction(this.value)" value="Kamikaze">Kamikaze<br>
-          <input type="radio" name="browser" onclick="myFunction(this.value)" value="Revival">Revival<br>
-          <input type="radio" name="browser" onclick="myFunction(this.value)" value="Recovery">Recovery<br>
+        <br>  <br>
+        <p class = "r" id="rhead">Select your favorite album:</p>
+        <form action="/action_page.php" class="r">
+              <input type="radio" name="album" onclick="myFunction(this.value)" value="Kamikaze">Kamikaze<br>
+          <input type="radio" name="album" onclick="myFunction(this.value)" value="Revival">Revival<br>
+          <input type="radio" name="album" onclick="myFunction(this.value)" value="Recovery">Recovery<br>
           Your favorite album is: <input type="text" id="result">
-          <input type="submit" value="Submit form">
+          <input type="submit" value="Submit" id="button">
         </form>
-
         <script>
         function myFunction(album) {
             document.getElementById("result").value = album;
         }
         </script>
+        <br> <br>
+        <h2 class="lel"><a target="_blank" href="https://jimmytheman.github.io/kamikaze.html" id="b1">Kamikaze</a><a target="_blank" href="https://jimmytheman.github.io/revival.html" id="b2">Revival</a><a target="_blank" href="https://jimmytheman.github.io/recovery.html" id="b3">Recovery</a></h2>
+        <h2 class="lel"><a href="#title" id="btt">Back to Top</a></h2>
+        
+
         
         
     </body>
